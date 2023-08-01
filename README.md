@@ -14,5 +14,4 @@ response.body
     new ProgressBarTransformStream({ total: contentLength, title: fileName })
   )
   .pipeTo(out.writable);
-  .pipeTo(out.writable);
 ```
